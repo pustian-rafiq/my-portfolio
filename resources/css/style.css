@@ -359,3 +359,66 @@ svg.ux-ui circle {
 .portfolio-section .mixitup-control-active{
     background: #fff;
 }
+
+/***********************/
+/*TESTIMONIAL SECTION*/
+/**********************/
+.testimonial-section{
+   
+    background:linear-gradient(rgb(215,70,128,.9),rgb(215,70,128,.9)), url(image/testimonial-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+ 
+}
+.testimonial-section h2::after{
+    background: #b73c6d;
+}
+.testimonial-section .little-description{
+    color: #fff;
+    text-align: center;
+}
+.testimonial-section .col:nth-child(3){
+    margin-left: 0;
+}
+.testimonial-section .col:nth-child(1),
+.testimonial-section .col:nth-child(2){
+    margin-top: 4rem;
+}
+.testimonial-section .col:nth-child(3),
+.testimonial-section .col:nth-child(4){
+    margin-top: 8rem;
+}
+.client-photo {
+    width: 10rem;
+    float: left;
+}
+.client-photo img{
+    height: 8rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+.client-review {
+    width: 35rem;
+    float: left;
+    
+}
+.client-review p{
+    font-size: 2.1rem;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    
+}
+.client-review .role{
+    color: #ffdd99;
+}
+.client-review h4{
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    margin-bottom: .7rem;
+    text-transform: uppercase;
+     
+}
+ 
